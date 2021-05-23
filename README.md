@@ -1,6 +1,6 @@
 # ninjarig docker image
 
-Ninjarig image enabled to only CPU mine, minimum donation level it's set to 0
+Super small ninjarig image enabled to only CPU mine, minimum donation level it's set to 0
 
 ## Configuration
 
