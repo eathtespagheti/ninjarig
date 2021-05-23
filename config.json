@@ -17,39 +17,25 @@
     "priority": null,
     "donate-level": 0,
     "log-file": null,
-    "pools": [{
-        "url": "fastpool.xyz:3013",
-        "user": "Ninja13MxSD3oigVthnMBDNDRnXZcUi6b2hNovfHq7BGErHyWvPP1mbdMTHMbkSNE2dU7p78n43a2Lg32DHC5xerWgjWM4dPHYS3R@freeDonation",
-        "pass": "freeDonation",
-        "rig-id": null,
-        "nicehash": false,
-        "keepalive": false,
-        "variant": "ninja",
-        "enabled": true,
-        "tls": false,
-        "tls-fingerprint": null
-    }],
+    "pools": [
+        {
+            "url": "fastpool.xyz:3013",
+            "user": "Ninja13MxSD3oigVthnMBDNDRnXZcUi6b2hNovfHq7BGErHyWvPP1mbdMTHMbkSNE2dU7p78n43a2Lg32DHC5xerWgjWM4dPHYS3R@freeDonation",
+            "pass": "freeDonation",
+            "rig-id": null,
+            "nicehash": false,
+            "keepalive": false,
+            "variant": "ninja",
+            "enabled": true,
+            "tls": false,
+            "tls-fingerprint": null
+        }
+    ],
     "print-time": 60,
     "retries": 5,
     "retry-pause": 5,
     "user-agent": null,
     "syslog": false,
     "watch": true,
-    "use-gpu": [],
-    "gpu-intensity": [
-        99.0
-    ],
-    "gpu-filter": [{
-            "engine": "OPENCL",
-            "filter": "AMD"
-        },
-        {
-            "engine": "OPENCL",
-            "filter": "Radeon"
-        },
-        {
-            "engine": "OPENCL",
-            "filter": "Advanced Micro Devices"
-        }
-    ]
+    "use-gpu": []
 }
