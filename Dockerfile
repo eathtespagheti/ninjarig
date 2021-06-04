@@ -7,7 +7,7 @@ COPY minDonation.patch minDonation.patch
 RUN git apply minDonation.patch
 RUN mkdir build
 WORKDIR /ninjarig/build
-RUN cmake -DWITH_CUDA=OFF -DWITH_OPENCL=OFF .. -DCMAKE_BUILD_TYPE=RELEASE
+RUN cmake .. -DCMAKE_BUILD_TYPE=RELEASE
 RUN make
 RUN make install
 
